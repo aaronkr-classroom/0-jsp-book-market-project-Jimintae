@@ -28,4 +28,31 @@
 		<nature>org.eclipse.jdt.core.javanature</nature>
 		<nature>org.eclipse.wst.jsdt.core.jsNature</nature>
 	</natures>
+	<linkedResources>
+		<link>
+			<name>src/main/webapp/WEB-INF/lib/cos.jar</name>
+			<type>1</type>
+			<location>C:/Users/user/Desktop/java hacking/7-file-upload-Jimintae/src/main/webapp/WEB-INF/lib/cos.jar</location>
+		</link>
+		<link>
+			<name>src/main/webapp/resources/css/bootstrap.min.css</name>
+			<type>1</type>
+			<location>C:/Users/user/Desktop/bootstrap-5.3.3-dist/bootstrap-5.3.3-dist/css/bootstrap.min.css</location>
+		</link>
+		<link>
+			<name>src/main/webapp/resources/images/ISBN1234.jpg</name>
+			<type>1</type>
+			<location>C:/Users/user/Desktop/ISBN1234.jpg</location>
+		</link>
+		<link>
+			<name>src/main/webapp/resources/images/ISBN1235.jpg</name>
+			<type>1</type>
+			<location>C:/Users/user/Desktop/ISBN1235.jpg</location>
+		</link>
+		<link>
+			<name>src/main/webapp/resources/images/ISBN1236.jpg</name>
+			<type>1</type>
+			<location>C:/Users/user/Desktop/ISBN1236.jpg</location>
+		</link>
+	</linkedResources>
 </projectDescription>

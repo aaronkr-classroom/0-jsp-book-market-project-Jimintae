@@ -19,7 +19,8 @@ public class BookRepository {
 		book1.setPublisher(null);
 		book1.setCategory(null);
 		book1.setUnitsInStock(0);
-		book1.setReleaseDate(null);
+		book1.setReleaseDate("2022/10/06");
+		book1.setFilename("ISBN1234.jpg");
 		
 		Book book2 = new Book("ISBN1235", "자바마스터", 30000);
 		book2.setAuthor(null);
@@ -27,7 +28,8 @@ public class BookRepository {
 		book2.setPublisher(null);
 		book2.setCategory(null);
 		book2.setUnitsInStock(0);
-		book2.setReleaseDate(null);
+		book2.setReleaseDate("2023/01/01");
+		book2.setFilename("ISBN1235.jpg");
 		
 		Book book3 = new Book("ISBN1236", "파이썬 프로그래밍", 30000);
 		book3.setAuthor(null);
@@ -35,7 +37,8 @@ public class BookRepository {
 		book3.setPublisher(null);
 		book3.setCategory(null);
 		book3.setUnitsInStock(0);
-		book3.setReleaseDate(null);
+		book3.setReleaseDate("2023/01/01");
+		book3.setFilename("ISBN1236.jpg");
 		
 		listOfBooks.add(book1);
 		listOfBooks.add(book2);
