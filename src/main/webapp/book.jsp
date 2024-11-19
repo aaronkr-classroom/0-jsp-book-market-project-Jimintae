@@ -10,7 +10,16 @@
 <head>
 <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"> -->
 <link rel="stylesheet" href="./resources/css/bootstrap.min.css" />
-<title>도서 정보</title>
+<title>도서 상세 정보</title>
+<script type="text/javascript">
+	function addToCart() {
+		if (confirm("도서를 장바구니에 추가하시겠습니까?")) {
+			document.addForm.submit();
+		} else {
+			document.addForm.reset();
+		}
+	}
+</script>
 </head>
 <body>
 
@@ -43,11 +52,17 @@
 				<p><strong>분류</strong> : <%book.getCategory(); %></p>
 				<p><strong>재고수</strong> : <%book.getUnitsInStock(); %></p>
 				<h4><%=book.getUnitPrice() %>원</h4>
-				<p><a href="#" class="btn btn-info"> 도서주문 &raquo;</a>
+				<p> <form name="addForm" action="./addCart.jsp?id=<%=book.getBookId() %>" method="post">
+				<a href="#" class="btn btn-info" onclick="addToCart()"> 도서주문 &raquo;</a>
+				<a hrdf="./cart.jsp" class=btn btn-warning">장바구니 &raquo;</a>
 				<a href="./books.jsp" class="btn btn-secondary"> 도서 목록 &raquo;</a>
+				</form>
 			</div>
 		</div>
 		<jsp:include page="footer.jsp" />
 	</div>
 </body>
 </html>
+
+
+
